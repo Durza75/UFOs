@@ -56,16 +56,6 @@ function listLoop(userList) {
   }
 
   // 11.5.2 Add forEach to Your Table
-  data.forEach((dataRow) => {
-    let row = tbody.append("tr");
-    Object.values(dataRow).forEach((val) => {
-      let cell = row.append("td");
-      cell.text(val);
-      }
-    );
-  });
-
-
   function buildTable(data) {
     // First, clear out any existing data
     tbody.html("");
