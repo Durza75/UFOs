@@ -52,11 +52,6 @@ function listLoop(userList) {
 
  // 11.5.1 INTRODUCTION TO DYNAMIC TABLES
  function buildTable(data) {
-    tbody.html("");
-  }
-
-  // 11.5.2 Add forEach to Your Table
-  function buildTable(data) {
     // First, clear out any existing data
     tbody.html("");
   
