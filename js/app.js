@@ -97,5 +97,5 @@ function listLoop(userList) {
   // Build the table when the page loads
   buildTable(tableData);
 
-  // 11.6.1 BOOTSTRAP COMPONENTS
+  // 11.6.1 BOOTSTRAP COMPONENTS (Continue on other file)
   
