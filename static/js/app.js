@@ -2,7 +2,7 @@
 // import the data from data.js
 const tableData = data;
 // Reference the HTML table using d3
-var today = d3.select("tbody");
+var tbody = d3.select("tbody");
 
 // 11.3.2 SIMPLE JAVASCRIPT FUNCTIONS
 console.log(addition(4,5));
@@ -27,7 +27,7 @@ function doubleAddition(c, d) {
     return total;
   }
 // Converted to an arrow function (I think?)
-=> addition(c,d) * 2;
+//=> addition(c,d) * 2;
 
 //11.4.1 USE A JAVASCRIPT FOR LOOP
 let friends = ["Sarah", "Greg", "Cindy", "Jeff"]; //type this into console on google chrome
