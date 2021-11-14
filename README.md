@@ -28,6 +28,6 @@ Firstly, the filter search bars require the user to enter the data in the specif
 
 Secondly, the box for state must be entered exactly as it appears in the preview. This filter only recognizes 2-letter lowercase abbreviations such as "va" or "ny." Entries such as "VA" or "Virginia" will not be recognized, and the same goes for the country filter. The webpage only recognizes "us," not "USA" or "Unites States."  
 
-Two recommendations were identified as possible avenues for improvement for this webpage. First, the filter search provides a box for country, but the JavaScript file only contains information for cities within the United States. It is recommended to either add additional information to the file regarding UFO sightings abroad, or to remove the option to search for countries, since such a search would be irrelevant. Secondly, 
+Two recommendations were identified as possible avenues for improvement for this webpage. First, the filter search provides a box for country, but the JavaScript file only contains information for cities within the United States. It is recommended to either add additional information to the file regarding UFO sightings abroad, or to remove the option to search for countries, since such a search would be irrelevant. The second recommendation is to add a sixth filter search for duration of the UFO sighting. There is significant data regarding different durations of UFO sightings, and it would be useful for the user to filter such data. 
 
 
