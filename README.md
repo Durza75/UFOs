@@ -22,7 +22,12 @@ In order to conduct a search, the user must enter the desired information, in th
 
 
 ## Summary
+The webpage works well but it contains several drawbacks.
 
+Firstly, the filter search bars require the user to enter the data in the specific format previewed within the empty search boxes. The date must be entered in DD/MM/YYYY format, and the remainder of the boxes must be entered in all lowercase letter: the filter function is case sensitive.  
 
-~~There are several changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs. First of all, the overall passing percentage of its students has decreased. Second, there is a decrease in the overall passing rate of medium-sized schools. Thirdly, compared to district schools, the chartered schools category has decreased in its performance. Finally, the $630 - $644 spending range category has overall decreased in passing percentages.~~  
+Secondly, the box for state must be entered exactly as it appears in the preview. This filter only recognizes 2-letter lowercase abbreviations such as "va" or "ny." Entries such as "VA" or "Virginia" will not be recognized, and the same goes for the country filter. The webpage only recognizes "us," not "USA" or "Unites States."  
+
+Two recommendations were identified as possible avenues for improvement for this webpage. First, the filter search provides a box for country, but the JavaScript file only contains information for cities within the United States. It is recommended to either add additional information to the file regarding UFO sightings abroad, or to remove the option to search for countries, since such a search would be irrelevant. Secondly, 
+
 
